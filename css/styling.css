@@ -100,6 +100,13 @@ body {
     width: 1200px;
     font-size: 30px;
     margin: auto;
+    color: black;
+    
+    /*
+    text-shadow: 0 0 20px #FF0000, 0 0 25px gray;
+    font-family: 'Francois One', sans-serif;
+    font-weight: bold;
+    */
 }
 
 .lback {
@@ -120,8 +127,17 @@ body {
 
 .by {font-size: 15px;
     text-align:center;
+    color: red;
 }
     
+#textShadow {
+    text-align:center
+    color: red;
+    text-shadow: 0 0 20px #FF0000, 0 0 25px gray;
+    font-family: 'Francois One', sans-serif;
+    font-weight: bold;
+}    
+
     
 /* Navigation Bar  */
 
