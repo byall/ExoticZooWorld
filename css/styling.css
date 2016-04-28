@@ -14,20 +14,26 @@ body {
     font-size: 80px;
     font-family: 'Francois One', sans-serif;
     font-weight: bold;
-    margin-top: 40px;
     text-align: center;
     margin:auto;
     color: black;
     text-shadow: 0 0 20px #FF0000, 0 0 25px gray;
-    
 }
+
+.welcometitle {
+    height: 150px;
+    width: 1200px;
+    padding:100px 0px 0px 0px;
+}
+
 .conn {
     height: 100px ;
     width: 1200px;
     font-size: 50px;
-    margin:auto;
-    
+    margin:auto; 
 }
+
+
 .contt {
     height: 600px;
     width: 1200px;
@@ -127,7 +133,7 @@ body {
 
 .by {font-size: 15px;
     text-align:center;
-    color: red;
+    color: black;
 }
     
 #textShadow {
@@ -449,7 +455,6 @@ li {
     font-size: 20px;
     clear: both;
     margin-left: 500px;
-
     
 }
 
@@ -467,35 +472,65 @@ li {
     margin:auto;
     text-align: center;
     padding : 60px 20px 10px 20px;
-   
 }
 
-.elContainer0 {
+.elContainer1 {
     width:1160px;
     height:auto;
     text-align: center;
     display : inline-block;
     both:clear;
-    background-color : orange;
-}
-
-
-.elContainer1 {
-    width:580px;
-    height:800px;
-    text-align: center;
-    display : inline-block;
-    float:left;
-    background-color : yellow;
+    background-color:red;
 }
 
 .elContainer2 {
+    width:1160px;
+    height:auto;
+    text-align: center;
+    display : inline-block;
+    both:clear;
+}
+
+.elContainer3 {
+    width:1160px;
+    height:auto;
+    text-align: center;
+    display : inline-block;
+    both:clear;
+}
+
+.elSubContainer1 {
     width:580px;
     height:800px;
     text-align: center;
     display : inline-block;
     float:left;
-    background-color : blue;
+
+}
+
+.elSubContainer2 {
+    width:580px;
+    height:800px;
+    text-align: center;
+    display : inline-block;
+    float:left;
+
+}
+
+#elFontTitle {
+    font-family: 'Chewy', cursive;
+    font-size: 40px;
+    text-align:center;
+}
+
+.elTitleBox {
+    width:1000px;
+    height:auto;
+    margin:auto;
+    padding : 20px;
+    font-family: 'Vollkorn', serif;
+    text-align: left;
+    display : inline-block;
 }
 
 .elDescBoxLong {
@@ -506,7 +541,7 @@ li {
     font-family: 'Vollkorn', serif;
     text-align: left;
     display : inline-block;
-    background-color: red;
+
 }
 
 .elDescBoxShort {
@@ -517,7 +552,7 @@ li {
     font-family: 'Vollkorn', serif;
     text-align: left;
     display : inline-block;
-    background-color: red;
+
 }
 
 
@@ -651,7 +686,7 @@ li {
 }
 
 #peCircle1 {
-	border: 0px solid white;
+	border: 2px solid white;
     background-image:url(../images/typeCapePenguin.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -684,7 +719,7 @@ li {
 
 
 #peCircle2 {
-	border: 0px solid white;
+	border: 2px solid white;
     background-image:url(../images/typeRockhopperPenguin.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -710,7 +745,7 @@ li {
 
 
 #peCircle3 {
-	border: 0px solid white;
+	border: 2px solid white;
     background-image:url(../images/typeGentooPenguin.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -734,7 +769,7 @@ li {
 }
 
 #peCircle4 {
-	border: 0px solid white;
+	border: 2px solid white;
     background-image:url(../images/typeKingPenguin.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -759,7 +794,7 @@ li {
 
 
 #peCircle5 {
-	border: 0px solid white;
+	border: 2px solid white;
     background-image:url(../images/typeWhiteFlipperedPenguin.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -783,7 +818,7 @@ li {
 }
 
 #peCircle6 {
-	border: 0px solid white;
+	border: 2px solid white;
     background-color :darkorange;
     background-image:url(../images/penguinCartoon.png);
     background-repeat: no-repeat;
