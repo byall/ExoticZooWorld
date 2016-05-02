@@ -89,7 +89,7 @@ body {
 }
 
 .link {
-    margin-top: 440px;
+    margin-top: 470px;
     height: 100px;
     width: 180px;
     float: left;
@@ -200,153 +200,18 @@ a:visited {
 
 
 /*Leopards Page starts here*/
-
-/*
-.MenuBox {
-    width:1200px;
-    height:50px;
-    padding-left:0px;
-    margin:auto;
-    text-align:center;
-    vertical-align: middle; 
-    float:left;  
-}
-
-
-.MenuFontColor: link {
-    text-decoration: none;
-}
-
-.MenuFontColor: visited {
-    text-decoration: none;
-}
-
-.MenuFontColor: active {
-    color:white;
-}
-
-.MenuFontColor: hover {
-    text-decoration: none;
-}
-
-
-li {
-    margin-left: 0px;
-    margin-top:0px;
-    font-family:Times New Roman;
-    font-weight: bold;
-    color:darkgray;
-    font-size:12px;
-    display:inline;
-}    
-   
-*/
-   
-   
-.lsltitle {
-  background-color: red;
-    height: 220px;
-    width: 100%;
-    font-family: 'Francois One', sans-serif;
-    text-align: center;
-    font-size: 60px;
-    text-shadow: 0 0 20px #FF0000, 0 0 25px grey;
-}
-
 .lcont {
-    height: 1500px;
+    height: 1430px;
     width: 1200px;
     margin-top: 60px;
 }
 
 .lcont2 {
-    height: 1000px;
-    width: 1200px;
-    margin-top: 20px;
-}
-
-.lcont3 {
-    height: 1000px;
-    width: 1200px;
-    margin-top: 20px;
-    clear: both;
-}
-
-.lfun {
-    background-image: url(../images/tree_bark.png);
-    height: 630px;
-    width: 300px;
-    font-family: 'Vollkorn', serif; 
-    float: right;
-    font-size: 20px;
-    margin-top: 100px;
-    margin-right: 150px;
-    padding: 25px;
-    display : inline-block;
-}
-
-.llife {background-image: url(../images/tree_bark.png);
-    height: 300px;
-    width: 400px;
-    font-family: 'Vollkorn', serif;
+    height: 1420px;
+    width: 550px;
     float: left;
-    font-size: 20px;
-    margin-top: 55px;
-    margin-right: 50px;
-    margin-left: 150px;
-    padding:20px;
-}
-
-.ltext {
-    background-image: url(../images/tree_bark.png);
-    background-repeat: repeat;
-    width: 350px;
-    height: 490px;
-    float: right;
-    Font-family: 'Vfollkorn', serif;
-    font-size: 25px;
-    margin-top: 55px;
-    margin-right: 150px;
-    padding: 25px;
-    display : inline-block;
-    
-}
-
-.lsltext {
-    width: 250px;
-    height: 470px;
-    font-family: 'Vollkorn', serif;
-    font-size: 25px;
-    font-weight: bold;
-    float: right;
-    margin-top: 150px;
-    margin-right: 300px;
-    display : inline-block;
-}
-
-.lfunsl {
-    height: 475px;
-    width: 300px;
-    font-family: 'Vollkorn', serif;
-    float: right;
-    font-size: 20px;
-    margin-right: 150px;
-    display : inline-block;
-    margin-top: -390px;
-    font-weight: bold;
-    
-}
-
-.llifes {
-    height: 350px;
-    width: 275px;
-    font-family: 'Vollkorn', serif;
-    float: right;
-    margin-top: 70px;
-    margin-right: 170px;
-    font-size: 20px;
-    font-weight: bold;
-    display : inline-block;
+    margin-left: 25px;
+    display: inline-block;
 }
 
 .ltree {
@@ -355,13 +220,11 @@ li {
     background-image: url(../images/leptree.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    float: left;
-    clear: both;
-    margin-top: 85px;
-    margin-left: 150px;
-    transform: rotateZ(4deg);
+    transform: rotateZ(5deg);
     border: 15px solid white;
     border-radius:10px;
+    margin-top: 30px;
+    margin-left: 90px;
 }
 
 .lsusp {
@@ -370,13 +233,76 @@ li {
     background-image: url(../images/lepsusp.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    float: left;
-    clear: both;
-    transform: rotateZ(-6deg);
+    transform: rotateZ(-5deg);
     border: 15px solid white;
     border-radius: 10px;
-    margin-top: 10px;
-    margin-left: 150px;
+    margin-top: 60px;
+    margin-left: 90px;
+}
+
+.llife {background-image: url(../images/tree_bark.png);
+    height: 300px;
+    width: 400px;
+    font-family: 'Vollkorn', serif;
+    float: left;
+    font-size: 20px;
+    padding:20px;
+    margin-top: 70px;
+    margin-left: 90px;
+    font-weight: bold;
+}
+
+
+.lcont3 {
+    height: 1420px;
+    width: 550px;
+    float: right;
+    display: inline-block;
+    
+}
+.ltext {background-image: url(../images/tree_bark.png);
+    background-repeat: repeat;
+    width: 350px;
+    height: 490px;
+    float: right;
+    Font-family: 'Vfollkorn', serif;
+    font-size: 25px;
+    padding: 25px;
+    margin-top: 15px;
+    margin-right: 70px;
+    
+    
+}
+.lfun {background-image: url(../images/tree_bark.png);
+    height: 630px;
+    width: 300px;
+    font-family: 'Vollkorn', serif; 
+    float: right;
+    font-size: 20px;
+    padding: 25px;
+    margin-top: 30px;
+    margin-right: 70px;
+    
+}
+#lsltitle {
+    background-color: red;
+    height: 220px;
+    width: 1200px;
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+
+.lcont4 {
+    height: 850px;
+    width: 1200px;
+    margin-top: 60px;
+}
+.lcont5 {
+    height: 780px;
+    width: 500px;
+    float: left;
+    margin-left: 90px;
+    
 }
 
 .lsleep {
@@ -385,11 +311,7 @@ li {
     background-image: url(../images/lepsleepy.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    float: left;
-    clear: both;
-    margin-left: 150px;
-    margin-top: 30px;
-    transform: rotateZ(2deg);
+    transform: rotateZ(5deg);
     border: 15px solid white;
     border-radius:10px;
 }
@@ -400,27 +322,50 @@ li {
     background-image: url(../images/lepyawn.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    float: left;
-    margin-top: 40px;
-    margin-left: 150px;
     transform: rotateZ(-5deg);
     border: 15px solid white;
     border-radius:10px;
+    margin-top: 60px;
 }
 
+.lsltext {background-image: url(../images/tree_bark.png);
+    width: 370px;
+    height: 390px;
+    font-family: 'Vollkorn', serif;
+    font-size: 25px;
+    font-weight: bold;
+    float: right;
+    display : inline-block;
+    margin-right: 90px;
+    margin-top: 185px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 15px;
+    
+}
+.lcont6 {
+    height: 1200px;
+    width; 1200px;
+    margin-top: 60px;
+}
+.lcont7 {
+    height: 1000px;
+    width: 500px;
+    float: left;
+    display: inline-block;
+    margin-left: 90px;
+    margin-top: 100px;
+}
 .llookout {
     width: 405px;
     height: 300px;
     background-image: url(../images/leplookout.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    float: left;
-    clear: both;
-    margin-top: 125px;
-    margin-left: 150px;
-    transform: rotateZ(-2deg);
+    transform: rotateZ(5deg);
     border: 15px solid white;
     border-radius:10px;
+    margin-top: 50px;
 }
 
 .lhead {
@@ -429,34 +374,57 @@ li {
     background-image: url(../images/lephead.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    float: left;
-    clear: both;
     margin-top: 125px;
-    margin-left: 150px;
-    transform: rotateZ(5deg);
+    transform: rotateZ(-5deg);
     border: 15px solid white;
     border-radius:10px;
+    margin-top: 60px;
 }
 
-.llc {
-    background-color: blue;
-    height: 550px;
-    width: 100%;
-    margin-top: 25px;
-    clear: both;
-    margin-top: 25px;
+.lcont8 {
+    height: 900px;
+    float: right;
+    display: inline-block;
+    margin-right: 160px;
 }
 
-.lwonder {
-    width: 300px;
-    height: 300px;
-    font-family: 'Vollkorn', serif;
-    font-weight: bold;
+.lfunsl {background-image: url(../images/tree_bark.png);
+    height: 590px;
+    width: 270px;
+    font-family: 'Vollkorn', serif; 
     font-size: 20px;
-    clear: both;
-    margin-left: 500px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 15px;
+    
+   
+}
+
+.llifes {background-image: url(../images/tree_bark.png);
+    height: 410px;
+    width: 270px;
+    font-family: 'Vollkorn', serif;
+    font-size: 20px;
+    font-weight: bold;  
+    margin-top: 90px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 15px;
     
 }
+
+#wonder {
+    height: 250px;
+    width: 1200px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    
+    
+}
+
 
 
 
@@ -642,7 +610,7 @@ li {
 
 
 .peTitleBox {
-    width:500px;
+    width:600px;
     height:20px;
     margin:auto;
     padding: 10px;
@@ -895,47 +863,30 @@ li {
 .paContainer{
     width:  1200px;
     height: 920px;
-    margin:auto;
+    margin: 60px;
     text-align:center;
-    background-color : white;
     }
-    
-
-.paBottom{
-    width:  1200px;
-    height: 200px;
-    margin-top:60px;
-    text-align:center;
-    display:inline-block;
-    }
-
     
 .paLeftContrainer {
-    width:  490px;
+    width:  360px;
     height: 850px;
     margin-top:60px;
     text-align:center;
-    background-color : blue;
     float:left;
+    margin-left: 25px;
     
 }
 
-.paRightContrainer {
-    width:  690px;
-    height: 850px;
-    margin-top:60px;
-    background-color : red;
-    float:left;
-}
 
 .paPhoto1 {
     height: 350px;
     width: 350px;
     border: 15px solid white;
     border-radius: 10px;
-    
     float: left;
     background-image: url(../images/giant-panda.jpg);
+    margin-top: 30px;
+    
 }
 
 .paPhoto2 {
@@ -943,11 +894,18 @@ li {
     width: 350px;
     border: 15px solid white;
     border-radius: 10px;
-    
     float: left;
     background-image: url(../images/red-panda.jpg);
+    margin-top: 20px;
 }
 
+.paRightContrainer {
+    width:  640px;
+    height: 850px;
+    margin-top: 60px;
+    float: right;  
+    margin-right: 85px;
+}
 
 .paText{
     width:  600px;
@@ -958,8 +916,8 @@ li {
     background-image: url(../images/tree_bark.png);
     font-family: Marker Felt;
     font-weight: bold;
-    float:left;
     text-align: left;
+    
 }
 /*panda page ends here*/
 
