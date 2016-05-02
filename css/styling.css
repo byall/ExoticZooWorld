@@ -1,5 +1,3 @@
-
-
 /* Background pattern(Bark_Tree) from subtlepatterns.com */
 
 body {
@@ -15,7 +13,7 @@ body {
     font-family: 'Francois One', sans-serif;
     font-weight: bold;
     text-align: center;
-    margin:auto;
+    margin: auto;
     color: black;
     text-shadow: 0 0 20px #FF0000, 0 0 25px gray;
 }
@@ -23,58 +21,53 @@ body {
 .welcometitle {
     height: 150px;
     width: 1200px;
-    padding:100px 0px 0px 0px;
+    padding: 100px 0px 0px 0px;
 }
 
 .conn {
-    height: 100px ;
+    height: 100px;
     width: 1200px;
     font-size: 50px;
-    margin:auto; 
+    margin: auto;
 }
-
 
 .contt {
     height: 600px;
     width: 1200px;
-    margin : auto;
-   }
-   
+    margin: auto;
+}
+
 .panda {
     background-color: aqua;
     height: 500px;
     width: 300px;
-    margin-top:60px;
+    margin-top: 60px;
     float: left;
     background-image: url(../images/panda.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
 .penquin {
     background-color: blueviolet;
     height: 500px;
     width: 300px;
-    margin-top:60px;
+    margin-top: 60px;
     float: left;
     background-image: url(../images/penguin.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
 .elephant {
     background-color: deeppink;
     height: 500px;
     width: 300px;
-    margin-top:60px;
+    margin-top: 60px;
     float: left;
     background-image: url(../images/elephant.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
-    
 }
 
 .leopard {
@@ -84,8 +77,7 @@ body {
     height: 500px;
     width: 300px;
     float: left;
-    margin-top:60px;
-    
+    margin-top: 60px;
 }
 
 .link {
@@ -95,7 +87,8 @@ body {
     float: left;
     margin-left: 5px;
     font-size: 20px;
-    font-family: font-family: 'Francois One', sans-serif; ;
+    font-family: font-family: 'Francois One', sans-serif;
+    ;
     font-weight: bold;
     text-shadow: 0 0 10px red;
     text-decoration: none;
@@ -107,7 +100,6 @@ body {
     font-size: 30px;
     margin: auto;
     color: black;
-    
     /*
     text-shadow: 0 0 20px #FF0000, 0 0 25px gray;
     font-family: 'Francois One', sans-serif;
@@ -116,12 +108,12 @@ body {
 }
 
 .lback {
-    background-image:url(../images/tree_bark.png);
-    background:cover;
-    color:red;
+    background-image: url(../images/tree_bark.png);
+    background: cover;
+    color: red;
     height: 160px;
     width: 400px;
-    margin:auto;
+    margin: auto;
     text-align: center;
     vertical-align: middle;
     border-radius: 30px;
@@ -131,41 +123,41 @@ body {
     font-size: 20px;
 }
 
-.by {font-size: 15px;
-    text-align:center;
+.by {
+    font-size: 15px;
+    text-align: center;
     color: black;
 }
-    
+
 #textShadow {
-    text-align:center
-    color: red;
+    text-align: center color: red;
     text-shadow: 0 0 20px #FF0000, 0 0 25px gray;
     font-family: 'Francois One', sans-serif;
     font-weight: bold;
-}    
+}
 
-    
+
 /* Navigation Bar  */
 
 .MenuBox {
-    width:1200px;
-    height:100px;
-    padding-left:0px;
-    margin:auto;
-    text-align:center;
-    vertical-align: middle; 
-    float:left;  
+    width: 1200px;
+    height: 100px;
+    padding-left: 0px;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    float: left;
 }
 
-.MenuFontColor {    
-    color : black;
-    font-size : 40px;
+.MenuFontColor {
+    color: black;
+    font-size: 40px;
     font-family: 'Vollkorn', serif;
     text-decoration: none;
 }
 
-#buttonFontColor {    
-    color:red;
+#buttonFontColor {
+    color: red;
     font-weight: bold;
     font-size: 20px;
     font-family: 'Vollkorn', serif;
@@ -174,12 +166,11 @@ body {
     text-decoration: none;
 }
 
-
 li {
     margin-left: 0px;
-    margin-top:0px;
-    display:inline;
-}    
+    margin-top: 0px;
+    display: inline;
+}
 
 a {
     text-decoration: none;
@@ -188,18 +179,19 @@ a {
 a:link {
     text-decoration: none;
 }
+
 a:visited {
     text-decoration: none;
 }
 
 #Frame_style1 {
-    border:15px solid white;
-    border-radius:10px;
+    border: 15px solid white;
+    border-radius: 10px;
 }
 
 
-
 /*Leopards Page starts here*/
+
 .lcont {
     height: 1430px;
     width: 1200px;
@@ -222,7 +214,7 @@ a:visited {
     background-repeat: no-repeat;
     transform: rotateZ(5deg);
     border: 15px solid white;
-    border-radius:10px;
+    border-radius: 10px;
     margin-top: 30px;
     margin-left: 90px;
 }
@@ -240,27 +232,34 @@ a:visited {
     margin-left: 90px;
 }
 
-.llife {background-image: url(../images/tree_bark.png);
+.llife {
+    background-image: url(../images/tree_bark.png);
     height: 300px;
     width: 400px;
     font-family: 'Vollkorn', serif;
     float: left;
     font-size: 20px;
-    padding:20px;
+    padding: 20px;
     margin-top: 70px;
     margin-left: 90px;
     font-weight: bold;
 }
-
 
 .lcont3 {
     height: 1420px;
     width: 550px;
     float: right;
     display: inline-block;
-    
 }
-.ltext {background-image: url(../images/tree_bark.png);
+
+.lred {
+    color: red;
+    font-family: 'Lobster', cursive;
+    text-shadow: 0 0 20px gray;
+}
+
+.ltext {
+    background-image: url(../images/tree_bark.png);
     background-repeat: repeat;
     width: 350px;
     height: 490px;
@@ -270,20 +269,20 @@ a:visited {
     padding: 25px;
     margin-top: 15px;
     margin-right: 70px;
-    
-    
 }
-.lfun {background-image: url(../images/tree_bark.png);
+
+.lfun {
+    background-image: url(../images/tree_bark.png);
     height: 630px;
     width: 300px;
-    font-family: 'Vollkorn', serif; 
+    font-family: 'Vollkorn', serif;
     float: right;
     font-size: 20px;
     padding: 25px;
     margin-top: 30px;
     margin-right: 70px;
-    
 }
+
 #lsltitle {
     background-color: red;
     height: 220px;
@@ -297,12 +296,12 @@ a:visited {
     width: 1200px;
     margin-top: 60px;
 }
+
 .lcont5 {
     height: 780px;
     width: 500px;
     float: left;
     margin-left: 90px;
-    
 }
 
 .lsleep {
@@ -313,7 +312,7 @@ a:visited {
     background-repeat: no-repeat;
     transform: rotateZ(5deg);
     border: 15px solid white;
-    border-radius:10px;
+    border-radius: 10px;
 }
 
 .lyawn {
@@ -324,30 +323,33 @@ a:visited {
     background-repeat: no-repeat;
     transform: rotateZ(-5deg);
     border: 15px solid white;
-    border-radius:10px;
+    border-radius: 10px;
     margin-top: 60px;
 }
 
-.lsltext {background-image: url(../images/tree_bark.png);
+.lsltext {
+    background-image: url(../images/tree_bark.png);
     width: 370px;
     height: 390px;
     font-family: 'Vollkorn', serif;
     font-size: 25px;
     font-weight: bold;
     float: right;
-    display : inline-block;
+    display: inline-block;
     margin-right: 90px;
     margin-top: 185px;
     padding-left: 20px;
     padding-top: 20px;
     padding-right: 15px;
-    
 }
+
 .lcont6 {
     height: 1200px;
-    width; 1200px;
+    width;
+    1200px;
     margin-top: 60px;
 }
+
 .lcont7 {
     height: 1000px;
     width: 500px;
@@ -356,6 +358,7 @@ a:visited {
     margin-left: 90px;
     margin-top: 100px;
 }
+
 .llookout {
     width: 405px;
     height: 300px;
@@ -364,7 +367,7 @@ a:visited {
     background-repeat: no-repeat;
     transform: rotateZ(5deg);
     border: 15px solid white;
-    border-radius:10px;
+    border-radius: 10px;
     margin-top: 50px;
 }
 
@@ -377,7 +380,7 @@ a:visited {
     margin-top: 125px;
     transform: rotateZ(-5deg);
     border: 15px solid white;
-    border-radius:10px;
+    border-radius: 10px;
     margin-top: 60px;
 }
 
@@ -388,30 +391,29 @@ a:visited {
     margin-right: 160px;
 }
 
-.lfunsl {background-image: url(../images/tree_bark.png);
+.lfunsl {
+    background-image: url(../images/tree_bark.png);
     height: 590px;
     width: 270px;
-    font-family: 'Vollkorn', serif; 
+    font-family: 'Vollkorn', serif;
     font-size: 20px;
     font-weight: bold;
     padding-left: 20px;
     padding-top: 10px;
     padding-right: 15px;
-    
-   
 }
 
-.llifes {background-image: url(../images/tree_bark.png);
+.llifes {
+    background-image: url(../images/tree_bark.png);
     height: 410px;
     width: 270px;
     font-family: 'Vollkorn', serif;
     font-size: 20px;
-    font-weight: bold;  
+    font-weight: bold;
     margin-top: 90px;
     padding-left: 20px;
     padding-top: 10px;
     padding-right: 15px;
-    
 }
 
 #wonder {
@@ -422,11 +424,9 @@ a:visited {
     font-family: 'Lobster', cursive;
     text-align: center;
     
-    
 }
-
-
-
+#bk {text-shadow: 0 0 10px grey;
+}
 
 
 /*Leopards page ends here*/
@@ -435,94 +435,89 @@ a:visited {
 /*Elephants page starts here*/
 
 .elContainer {
-    width:1160px;
-    height:auto;
-    margin:auto;
+    width: 1160px;
+    height: auto;
+    margin: auto;
     text-align: center;
-    padding : 60px 20px 10px 20px;
+    padding: 60px 20px 10px 20px;
 }
 
 .elContainer1 {
-    width:1160px;
-    height:auto;
+    width: 1160px;
+    height: auto;
     text-align: center;
-    display : inline-block;
-    both:clear;
-    background-color:red;
+    display: inline-block;
+    both: clear;
+    background-color: red;
 }
 
 .elContainer2 {
-    width:1160px;
-    height:auto;
+    width: 1160px;
+    height: auto;
     text-align: center;
-    display : inline-block;
-    both:clear;
+    display: inline-block;
+    both: clear;
 }
 
 .elContainer3 {
-    width:1160px;
-    height:auto;
+    width: 1160px;
+    height: auto;
     text-align: center;
-    display : inline-block;
-    both:clear;
+    display: inline-block;
+    both: clear;
 }
 
 .elSubContainer1 {
-    width:580px;
-    height:800px;
+    width: 580px;
+    height: 800px;
     text-align: center;
-    display : inline-block;
-    float:left;
-
+    display: inline-block;
+    float: left;
 }
 
 .elSubContainer2 {
-    width:580px;
-    height:800px;
+    width: 580px;
+    height: 800px;
     text-align: center;
-    display : inline-block;
-    float:left;
-
+    display: inline-block;
+    float: left;
 }
 
 #elFontTitle {
     font-family: 'Chewy', cursive;
     font-size: 40px;
-    text-align:center;
+    text-align: center;
 }
 
 .elTitleBox {
-    width:1000px;
-    height:auto;
-    margin:auto;
-    padding : 20px;
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    padding: 20px;
     font-family: 'Vollkorn', serif;
     text-align: left;
-    display : inline-block;
+    display: inline-block;
 }
 
 .elDescBoxLong {
-    width:1000px;
-    height:auto;
-    margin:auto;
-    padding : 20px;
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    padding: 20px;
     font-family: 'Vollkorn', serif;
     text-align: left;
-    display : inline-block;
-
+    display: inline-block;
 }
 
 .elDescBoxShort {
-    width:480px;
-    height:240px;
-    margin:auto;
-    padding : 20px;
+    width: 480px;
+    height: 240px;
+    margin: auto;
+    padding: 20px;
     font-family: 'Vollkorn', serif;
     text-align: left;
-    display : inline-block;
-
+    display: inline-block;
 }
-
 
 
 /*Penguin page starts here*/
@@ -531,326 +526,308 @@ a:visited {
 /*Penguin.Layout (Layout Divs, Boxes) */
 
 .peContainer {
-    width:1160px;
-    height:auto;
-    margin:auto;
+    width: 1160px;
+    height: auto;
+    margin: auto;
     text-align: center;
-    padding : 60px 0px 10px 0px;
-    
+    padding: 60px 0px 10px 0px;
 }
 
 .peLeftContainer {
-    width:410px;
-    height:800px;
+    width: 410px;
+    height: 800px;
     text-align: center;
-    display : inline-block;
-    float:left;
+    display: inline-block;
+    float: left;
 }
 
 .peLeftDescBox {
-    width:320px;
-    height:240px;
-    margin:auto;
+    width: 320px;
+    height: 240px;
+    margin: auto;
     font-family: 'Vollkorn', serif;
     text-align: left;
-    display : inline-block;
+    display: inline-block;
 }
 
 .peRightContainer {
-    width:710px;
-    height:820px;
+    width: 710px;
+    height: 820px;
     text-align: center;
-    display : inline-block;
-    float:left;
+    display: inline-block;
+    float: left;
 }
 
 .peRightDescBox {
-    width:650px;
-    height:auto;
-    margin:auto;
+    width: 650px;
+    height: auto;
+    margin: auto;
     font-family: 'Vollkorn', serif;
     text-align: left;
-    display : inline-block;
-    
+    display: inline-block;
 }
 
 .peFullWidthContainer {
-    width:1180px;
-    height:700px;
-    margin:auto;
+    width: 1180px;
+    height: 700px;
+    margin: auto;
     padding: 20px 10px 10px 10px;
     text-align: center;
-    display : inline-block;
-    clear:both;
-    
-    
+    display: inline-block;
+    clear: both;
 }
 
 .peFullWidthDescBox {
-    width:900px;
-    height:50px;
+    width: 900px;
+    height: 50px;
     font-family: 'Vollkorn', serif;
-    margin:auto;
+    margin: auto;
     padding: 20px;
     text-align: left;
-    
-    
 }
 
 .peBottomContainer {
-    width:1000px;
-    height:100px;
-    margin:auto;
+    width: 1000px;
+    height: 100px;
+    margin: auto;
     padding: 10px;
     text-align: center;
-    display : inline-block;
-    clear:both;
+    display: inline-block;
+    clear: both;
     background-color: white;
-    }
-
+}
 
 .peTitleBox {
-    width:600px;
-    height:20px;
-    margin:auto;
+    width: 600px;
+    height: 20px;
+    margin: auto;
     padding: 10px;
     font-size: 36px;
     font-weight: bold;
-    font-style : italic;
+    font-style: italic;
     font-family: 'Chewy', cursive;
-    color :crimson;
+    color: crimson;
     text-align: center;
-    
 }
 
 .peTitleBox_Short {
-    width:270px;
-    height:20px;
-    margin:auto;
+    width: 270px;
+    height: 20px;
+    margin: auto;
     padding: 10px;
     font-size: 28px;
     font-weight: bold;
-    font-style :italic;
+    font-style: italic;
     font-family: 'Chewy', cursive;
-    color : darkslateblue;
+    color: darkslateblue;
     text-align: left;
-    
 }
 
 
 /*PENGUIN.CSS Image Hover Overlay  */
+
+
 /* First circle : .circle , #circle1, #circle1_coral, #circle1:hover #circle1_coral , #plus    */
 
 .peCircle {
-	position: relative;
-	display: inline-block;
-	height: 180px;
-	width: 180px;
-	border-radius: 100%;
-	border: 2px solid black;
-	margin-left: 5px;
-	margin-top: 5px;
-	text-align: center;
+    position: relative;
+    display: inline-block;
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+    border: 2px solid black;
+    margin-left: 5px;
+    margin-top: 5px;
+    text-align: center;
 }
 
 #peCircle1 {
-	border: 2px solid white;
-    background-image:url(../images/typeCapePenguin.jpg);
+    border: 2px solid white;
+    background-image: url(../images/typeCapePenguin.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#peCircle1_coral    {  
-    background:coral;
-    text-align:center;
-    padding:80px 0 80px 0;
-    opacity:0;
+#peCircle1_coral {
+    background: coral;
+    text-align: center;
+    padding: 80px 0 80px 0;
+    opacity: 0;
     -webkit-transition: opacity .25s ease;
     -moz-transition: opacity .25s ease;
     position: relative;
-	border-radius: 100%;
-	text-align: center;
+    border-radius: 100%;
+    text-align: center;
     vertical-align: middle;
 }
 
 #peCircle1:hover #peCircle1_coral {
-    opacity:1;
+    opacity: 1;
 }
 
-#pePlus       {  
-    font-family:Helvetica;
-    font-weight:900;
-    color:rgba(255,255,255,.85);
-    font-size:18px;  
+#pePlus {
+    font-family: Helvetica;
+    font-weight: 900;
+    color: rgba(255, 255, 255, .85);
+    font-size: 18px;
 }
-
-
 
 #peCircle2 {
-	border: 2px solid white;
-    background-image:url(../images/typeRockhopperPenguin.jpg);
+    border: 2px solid white;
+    background-image: url(../images/typeRockhopperPenguin.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-
-#peCircle2_mustard    {  
-    background:#e6e600 ;
-    text-align:center;
-    padding:80px 0 80px 0;
-    opacity:0;
+#peCircle2_mustard {
+    background: #e6e600;
+    text-align: center;
+    padding: 80px 0 80px 0;
+    opacity: 0;
     -webkit-transition: opacity .25s ease;
     -moz-transition: opacity .25s ease;
     position: relative;
-	border-radius: 100%;
-	text-align: center;
+    border-radius: 100%;
+    text-align: center;
     vertical-align: middle;
 }
 
 #peCircle2:hover #peCircle2_mustard {
-    opacity:1;
+    opacity: 1;
 }
 
-
 #peCircle3 {
-	border: 2px solid white;
-    background-image:url(../images/typeGentooPenguin.jpg);
+    border: 2px solid white;
+    background-image: url(../images/typeGentooPenguin.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#peCircle3_cornflowerblue    {  
-    background:cornflowerblue ;
-    text-align:center;
-    padding:80px 0 80px 0;
-    opacity:0;
+#peCircle3_cornflowerblue {
+    background: cornflowerblue;
+    text-align: center;
+    padding: 80px 0 80px 0;
+    opacity: 0;
     -webkit-transition: opacity .25s ease;
     -moz-transition: opacity .25s ease;
     position: relative;
-	border-radius: 100%;
-	text-align: center;
+    border-radius: 100%;
+    text-align: center;
     vertical-align: middle;
 }
 
 #peCircle3:hover #peCircle3_cornflowerblue {
-    opacity:1;
+    opacity: 1;
 }
 
 #peCircle4 {
-	border: 2px solid white;
-    background-image:url(../images/typeKingPenguin.jpg);
+    border: 2px solid white;
+    background-image: url(../images/typeKingPenguin.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#peCircle4_darkseagreen    {  
-    background:darkseagreen ;
-    text-align:center;
-    padding:80px 0 80px 0;
-    opacity:0;
+#peCircle4_darkseagreen {
+    background: darkseagreen;
+    text-align: center;
+    padding: 80px 0 80px 0;
+    opacity: 0;
     -webkit-transition: opacity .25s ease;
     -moz-transition: opacity .25s ease;
     position: relative;
-	border-radius: 100%;
-	text-align: center;
+    border-radius: 100%;
+    text-align: center;
     vertical-align: middle;
 }
 
 #peCircle4:hover #peCircle4_darkseagreen {
-    opacity:1;
+    opacity: 1;
 }
 
-
 #peCircle5 {
-	border: 2px solid white;
-    background-image:url(../images/typeWhiteFlipperedPenguin.jpg);
+    border: 2px solid white;
+    background-image: url(../images/typeWhiteFlipperedPenguin.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#peCircle5_darksalmon    {  
-    background:darksalmon ;
-    text-align:center;
-    padding:80px 0 80px 0;
-    opacity:0;
+#peCircle5_darksalmon {
+    background: darksalmon;
+    text-align: center;
+    padding: 80px 0 80px 0;
+    opacity: 0;
     -webkit-transition: opacity .25s ease;
     -moz-transition: opacity .25s ease;
     position: relative;
-	border-radius: 100%;
-	text-align: center;
+    border-radius: 100%;
+    text-align: center;
     vertical-align: middle;
 }
 
 #peCircle5:hover #peCircle5_darksalmon {
-    opacity:1;
+    opacity: 1;
 }
 
 #peCircle6 {
-	border: 2px solid white;
-    background-color :darkorange;
-    background-image:url(../images/penguinCartoon.png);
+    border: 2px solid white;
+    background-color: darkorange;
+    background-image: url(../images/penguinCartoon.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-
-#peCircle6_coral    {  
-    background:coral ;
-    text-align:center;
-    padding:80px 0 80px 0;
-    opacity:0;
+#peCircle6_coral {
+    background: coral;
+    text-align: center;
+    padding: 80px 0 80px 0;
+    opacity: 0;
     -webkit-transition: opacity .25s ease;
     -moz-transition: opacity .25s ease;
     position: relative;
-	border-radius: 100%;
-	text-align: center;
+    border-radius: 100%;
+    text-align: center;
     vertical-align: middle;
 }
 
-#peCircle6:hover #peCircle6_coral  {
-    opacity:1;
+#peCircle6:hover #peCircle6_coral {
+    opacity: 1;
 }
-
 
 #pePatternBark {
     background-image: url(../images/tree_bark.png);
-    background-repeat:repeat;
+    background-repeat: repeat;
 }
 
 #pePatternGreen {
     background-image: url(../images/Pattern.Green1.jpg);
-    background-repeat:repeat;
+    background-repeat: repeat;
 }
 
 #pePatternRed {
     background-image: url(../images/Pattern.Red1.jpg);
-    background-repeat:repeat;
+    background-repeat: repeat;
 }
 
 #pePatternPink {
     background-image: url(../images/Pattern.Pink1.jpg);
-    background-repeat:repeat;
+    background-repeat: repeat;
 }
-
-
-
 
 
 /* PENGUIN. common decorative css */
 
-
 .peHr_style1 {
-    width:990px; 
-    margin:auto;
+    width: 990px;
+    margin: auto;
     height: 6px;
-	background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
-    border: 0;    
+    background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
+    border: 0;
 }
 
 .peHr_style2 {
-    width:990px; 
-    margin:auto;
-    border-top: 1px solid #8c8b8b; 
+    width: 990px;
+    margin: auto;
+    border-top: 1px solid #8c8b8b;
 }
 
 
@@ -859,24 +836,21 @@ a:visited {
 
 /*panda page starts here*/
 
-
-.paContainer{
-    width:  1200px;
+.paContainer {
+    width: 1200px;
     height: 920px;
     margin: 60px;
-    text-align:center;
-    }
-    
-.paLeftContrainer {
-    width:  360px;
-    height: 850px;
-    margin-top:60px;
-    text-align:center;
-    float:left;
-    margin-left: 25px;
-    
+    text-align: center;
 }
 
+.paLeftContrainer {
+    width: 360px;
+    height: 850px;
+    margin-top: 60px;
+    text-align: center;
+    float: left;
+    margin-left: 25px;
+}
 
 .paPhoto1 {
     height: 350px;
@@ -886,7 +860,6 @@ a:visited {
     float: left;
     background-image: url(../images/giant-panda.jpg);
     margin-top: 30px;
-    
 }
 
 .paPhoto2 {
@@ -900,25 +873,24 @@ a:visited {
 }
 
 .paRightContrainer {
-    width:  640px;
+    width: 640px;
     height: 850px;
     margin-top: 60px;
-    float: right;  
+    float: right;
     margin-right: 85px;
 }
 
-.paText{
-    width:  600px;
+.paText {
+    width: 600px;
     height: 800px;
-    margin-top:20x;
-    padding : 20px;
-    font-size  :27px;
+    margin-top: 20x;
+    padding: 20px;
+    font-size: 27px;
     background-image: url(../images/tree_bark.png);
     font-family: Marker Felt;
     font-weight: bold;
     text-align: left;
-    
 }
+
+
 /*panda page ends here*/
-
-
