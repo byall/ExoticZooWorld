@@ -448,7 +448,9 @@ a:visited {
     text-align: center;
     display: inline-block;
     both: clear;
-    background-color: red;
+    font-weight: bold;
+    font-size: 20px;
+  
 }
 
 .elContainer2 {
@@ -457,6 +459,7 @@ a:visited {
     text-align: center;
     display: inline-block;
     both: clear;
+    margin-top: 50px;
 }
 
 .elContainer3 {
@@ -473,6 +476,7 @@ a:visited {
     text-align: center;
     display: inline-block;
     float: left;
+    margin-top: 170px;
 }
 
 .elSubContainer2 {
@@ -481,12 +485,14 @@ a:visited {
     text-align: center;
     display: inline-block;
     float: left;
+    margin-top: 260px;
 }
 
 #elFontTitle {
     font-family: 'Chewy', cursive;
     font-size: 40px;
     text-align: center;
+    color:red;
 }
 
 .elTitleBox {
@@ -507,6 +513,7 @@ a:visited {
     font-family: 'Vollkorn', serif;
     text-align: left;
     display: inline-block;
+    font-size: 20px;
 }
 
 .elDescBoxShort {
@@ -517,6 +524,7 @@ a:visited {
     font-family: 'Vollkorn', serif;
     text-align: left;
     display: inline-block;
+    font-weight: bold;
 }
 
 
@@ -885,7 +893,7 @@ a:visited {
     height: 800px;
     margin-top: 20x;
     padding: 20px;
-    font-size: 27px;
+    font-size: 25px;
     background-image: url(../images/tree_bark.png);
     font-family: Marker Felt;
     font-weight: bold;
