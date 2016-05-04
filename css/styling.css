@@ -386,9 +386,9 @@ a:visited {
 
 .lcont8 {
     height: 900px;
-    float: left;
+    float: right;
     display: inline-block;
-    margin-left: 150px;
+    margin-right: 90px;
     
     
 }
