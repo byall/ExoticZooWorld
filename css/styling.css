@@ -388,7 +388,8 @@ a:visited {
     height: 900px;
     float: right;
     display: inline-block;
-    margin-right: 90px;
+    margin-right: 190px;
+    
     
     
 }
@@ -894,12 +895,13 @@ a:visited {
     width: 600px;
     height: 800px;
     margin-top: 20x;
-    padding: 20px;
+    padding: 10px;
     font-size: 25px;
     background-image: url(../images/tree_bark.png);
     font-family: Marker Felt;
     font-weight: bold;
     text-align: left;
+    
 }
 
 
